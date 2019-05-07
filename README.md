@@ -14,6 +14,7 @@ It is enough to work with Windows and Python 3 installed. With pip, install Jupy
 ## Datasets to download
 
 Dataset STSBenchmark: http://ixa2.si.ehu.es/stswiki/images/4/48/Stsbenchmark.tar.gz
+
 FastText English pre-trained word embeddings: https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip
 
 
