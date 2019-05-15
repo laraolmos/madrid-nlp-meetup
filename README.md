@@ -3,17 +3,18 @@
 
 This repository contains the material about "Challenges in Transfer Learning for NLP" event. In this Meetup we are going to experiment different sentences representation related with Transfer Learning in NLP models for the task of **Semantic Textual Similarity** (STS). 
 
-In an simple example and tutorial, after pre-processing the official STS Benchmark from SemEval 2017, we obtain pairs of similar sentences (each phrase token list) and a similarity puntuation. Later we use different models to represent final sentence: pre-trained word embedding from FastText and Universal Sentence Encoder. Cosine function is used to see lexical similarity and Pearson coefficient to compare the similarities obtained with the gold standard.
+In an simple example and tutorial, after pre-processing the official STS Benchmark from SemEval 2017, we obtain pairs of similar sentences (each phrase token list) and a similarity puntuation. Later we use different models to represent final sentence: pre-trained word embedding from FastText and Universal Sentence Encoder. Cosine function is used to see word and sentences similarity and Pearson coefficient to compare the similarities obtained with the gold standard.
 
 
 ## Dependencies to install
 
-It is enough to work with Windows and Python 3 installed. With pip, install Jupyter Notebook and the following packages: nltk, codecs, numpy, matplotlib, seaborn, scipy, tensorflow and tensorflow_hub.
+It is enough to work with Windows and Python 3 installed. With pip, install Jupyter and the following packages: nltk, codecs, numpy, matplotlib, seaborn, scipy, tensorflow and tensorflow_hub.
 
 
 ## Datasets to download
 
 Dataset STSBenchmark: http://ixa2.si.ehu.es/stswiki/images/4/48/Stsbenchmark.tar.gz
+
 FastText English pre-trained word embeddings: https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip
 
 
